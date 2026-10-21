@@ -1,0 +1,40 @@
+
+ RUN  v3.2.4 C:/Users/Administrator/Documents/ChatGPT/web3/contributions/genlayer-2026-10-21/profile03/projects/cargo-nest/frontend
+
+ ❯ tests/domain.test.ts (12 tests | 1 failed) 40ms
+   ✓ shows actual chain container members and both capacity sums 5ms
+   ✓ never turns open or infeasible output into a shipment plan 1ms
+   ✓ rejects missing/duplicate parcels or impossible totals 3ms
+   ✓ rejects a conflict or mismatched assignment in purported chain output 1ms
+   ✓ allows creator confirmation only for a complete current feasible result 1ms
+   ✓ rejects ambiguous repository . 1ms
+   ✓ rejects ambiguous repository .. 1ms
+   ✓ rejects ambiguous repository %2e 0ms
+   ✓ preserves valid repository .github 1ms
+   ✓ preserves valid repository repo.name 0ms
+   ✓ preserves valid repository _repo 0ms
+   × blocks confirmation after visible record ID changes without a fresh read 22ms
+     → expected true to be false // Object.is equality
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 11 passed (12)
+   Start at  06:20:00
+   Duration  1.91s (transform 207ms, setup 0ms, collect 191ms, tests 40ms, environment 0ms, prepare 901ms)
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/domain.test.ts > blocks confirmation after visible record ID changes without a fresh read
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ tests/domain.test.ts:13:136
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+

@@ -1,0 +1,461 @@
+{
+  "id": "cargo-nest",
+  "revision": "local-receipt-revision-2026-10-21",
+  "contract_sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6",
+  "contract_unchanged": true,
+  "frontend_input_tree_sha256": "f96301050abb3a5829f749cd187999bbda26713d92139493b20fb22948959a23",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 125,
+      "sha256": "76d86a4d17b2fa55e5251ad8ba6750f85604661433803997f758bcd0764830ac"
+    },
+    {
+      "path": "CONTRIBUTION.json",
+      "bytes": 957,
+      "sha256": "d53a58723dac54835a6be336ec452da61c074a3eea82d4d10919ceca0fbd1545"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 3631,
+      "sha256": "377d44915dbebdd9df3f46c625db97bfd826c9ae39b642ded6e8455a64b6555b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "f988f3c882db3a10139a888e2bc4a0dcf5d528fcf5d76ee870a4052527aeb9af"
+    },
+    {
+      "path": "LOCAL_FRONTEND_PATCH_STATUS.json",
+      "bytes": 657,
+      "sha256": "04e4c3991d34d9c01f3385915e7588aa6cac2322246cb86538762eae8c2077b1"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 890,
+      "sha256": "f1feecce62ec197723563958344b7c7eebbf45c2d20b5af10fa7e59c09125f3f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13190,
+      "sha256": "1e65f5deb73d97639427633aeab59cf87ad957ac4392af4511463f02b09661cf"
+    },
+    {
+      "path": "contract.py",
+      "bytes": 10901,
+      "sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6"
+    },
+    {
+      "path": "deployment.json",
+      "bytes": 216,
+      "sha256": "7574c2e3782c76842459a794e1a4791fb84f1683a41d53c845b435f3c4460271"
+    },
+    {
+      "path": "evidence/fixture-exact-bytes-red.log",
+      "bytes": 1705,
+      "sha256": "75ff02fcc966ee0a2ccf781d72f6339ce0daa000049399844ebbe89877385035"
+    },
+    {
+      "path": "evidence/frontend-bootstrap-red.log",
+      "bytes": 3191,
+      "sha256": "d0c46bf5530c94e28f45a8c5d422c0525884567416eaa150de3bc2c32c90d379"
+    },
+    {
+      "path": "evidence/frontend-build.log",
+      "bytes": 756,
+      "sha256": "0253d8552506a3a1181f4ceb22fbe3aef0bbed2a15867355ec189ea7b6050a58"
+    },
+    {
+      "path": "evidence/frontend-install.log",
+      "bytes": 1167,
+      "sha256": "6959b7f07b6afe802f8bf0f5cbd6be24f5e4d5a015294e4b74946b96dbf40a78"
+    },
+    {
+      "path": "evidence/frontend-raw-binding-red.log",
+      "bytes": 6400,
+      "sha256": "dc0b90f4a3b49af95a57b04034158cfbb3e6b1b6f293e766f88a44bad435c96b"
+    },
+    {
+      "path": "evidence/frontend-recovery-red.log",
+      "bytes": 1410,
+      "sha256": "7c2644bf99ac4300bc804ce1c80de0646b5a3ae32eaf24f19ddfb1a11dd33b12"
+    },
+    {
+      "path": "evidence/frontend-studio-compat-red.log",
+      "bytes": 2093,
+      "sha256": "a14c133e782d5aefee8967a67e124251a87f7380de8e3419e48905dc9eee4ca5"
+    },
+    {
+      "path": "evidence/frontend-tdd-red.log",
+      "bytes": 9283,
+      "sha256": "65053ba43d0049813ed54b7d7686169d1f6ae73d2f073d6c3ca2a9155de56347"
+    },
+    {
+      "path": "evidence/frontend-tests.log",
+      "bytes": 554,
+      "sha256": "c62caaf3e3e7cc3c5b056adc3dc745212cc4df144cf4a3233c6797421f7f340e"
+    },
+    {
+      "path": "evidence/frontend-verification.json",
+      "bytes": 3172,
+      "sha256": "ef46ba9218e10f1e6183646f3b5fef564e0f152a7da4a0e9aec42456f2b02737"
+    },
+    {
+      "path": "evidence/frontend-visible-id-red.log",
+      "bytes": 1547,
+      "sha256": "38181f84960bfc0a58ae22fe935ff5d7686aa0337f77bf61ec76c5bd133ff876"
+    },
+    {
+      "path": "evidence/independent-review.json",
+      "bytes": 1988,
+      "sha256": "0c8579e39b759240fb59900a09e52553eef8a0290c289299b7fe93616a9879a4"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/DESIGN.md",
+      "bytes": 967,
+      "sha256": "5688e28b18c7ec65542d67b0d4b0bbf5d0554a284eb4e3d0507e186a47f5d267"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/baseline.json",
+      "bytes": 842,
+      "sha256": "6d01ccb0c0a4bd44c76d9244cc20debd17666caa236002d37d6ad07b63dab69c"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/baseline/CONTRIBUTION.json.txt",
+      "bytes": 861,
+      "sha256": "1ee115db5480ed5b75e5bfda234ae257017dc4eb72317dd7045fbb97921d46da"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/baseline/PACKAGE_CONTENTS.json",
+      "bytes": 8720,
+      "sha256": "108639da270d239373c808b3a348061995fd56485630d8c870706354dfe3896f"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/baseline/PUBLISH_MANIFEST.json",
+      "bytes": 9204,
+      "sha256": "4ebbf622d8ce1b65a3939603b95774731cee4845ed67133e06fc802cfb2a8a17"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/baseline/README.md",
+      "bytes": 10627,
+      "sha256": "021e6da61c5b78cdef5290c52833983af986715545311b6849c4a435deb4cf99"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/baseline/evidence__frontend-verification.json",
+      "bytes": 3172,
+      "sha256": "ef46ba9218e10f1e6183646f3b5fef564e0f152a7da4a0e9aec42456f2b02737"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/frontend-build.log",
+      "bytes": 772,
+      "sha256": "59cb033f8b984bffa62c4eaf22882a39b69167ab708e4be1e2202085dcdfd560"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/frontend-tests.log",
+      "bytes": 709,
+      "sha256": "b0976d01f20fbeb0d9854638d16ed408705c78408ce61c03920aaaa615415b42"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/independent-review.json",
+      "bytes": 2867,
+      "sha256": "99c3bc13395c9db8fa83cf60b719050738fe2884df271d38110570ef166a5126"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/required-regressions-red.log",
+      "bytes": 3861,
+      "sha256": "fadbdf5886b039824222abe9218937a67c5e1997956c0c79177467679ac7b1f8"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/unchanged-business-bytes.json",
+      "bytes": 1126,
+      "sha256": "ce0d2afe1c150c5e9e3808ef336016bfb64402bedea1baf784d8d23b0f225692"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/verification.json",
+      "bytes": 3534,
+      "sha256": "902d6246597c15aa287d2c7c520b22cd5ab939c6a112d614e59c4c421e7ec499"
+    },
+    {
+      "path": "evidence/receipt-revision-2026-10-21/verify_frontend.py",
+      "bytes": 2965,
+      "sha256": "04d8df15aad3eee7128c1ea0e7d294085036772ba4f48825ce70d6740984cc6e"
+    },
+    {
+      "path": "evidence/sdk-setup.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/tdd-green-attempt1.log",
+      "bytes": 9501,
+      "sha256": "5484a1e8ab3f6ed9e97d71cf12aa527abfee7a9de96a99a738a0653c9594eec8"
+    },
+    {
+      "path": "evidence/tdd-green-fullchecks.log",
+      "bytes": 39,
+      "sha256": "914908706f29649a3aac6eca5235400fdf78ac6eeb225cc1dfc78c63acb88380"
+    },
+    {
+      "path": "evidence/tdd-red.log",
+      "bytes": 63070,
+      "sha256": "068a43e77b6c2e9f83815c7f925f9e8787dc32a871b1514a5320a07041e369e6"
+    },
+    {
+      "path": "evidence/verification-lint.log",
+      "bytes": 152,
+      "sha256": "b9a83b1da37dd4d57829a62373da5d825f051b4869c88826a2432028847d691d"
+    },
+    {
+      "path": "evidence/verification-schema.log",
+      "bytes": 848,
+      "sha256": "84c1d5316a812d2ade970bfc20179baf2d1a0b09b15b311ca5132f3682007c58"
+    },
+    {
+      "path": "evidence/verification-tests.log",
+      "bytes": 854,
+      "sha256": "e26d0af4851d03b7a452e4f7a3c1ef5c3bbd9b4e89fbde39522b31bb0ca767ab"
+    },
+    {
+      "path": "evidence/verification.json",
+      "bytes": 912,
+      "sha256": "05e6cc4d4b61f98b4637500e97467baae039c791016172bc72d87e9bc526cbbd"
+    },
+    {
+      "path": "fixtures/README.md",
+      "bytes": 818,
+      "sha256": "fd667cdeb9ed3d93fbb66d3d302f6e0ba86e5ca51eb936ca7240d36290edbcbc"
+    },
+    {
+      "path": "fixtures/input.json",
+      "bytes": 437,
+      "sha256": "6a88b716830a277a6acdb383ab42dbc510f0e5d71f208c753afe02f0a7412edd"
+    },
+    {
+      "path": "fixtures/source.json",
+      "bytes": 432,
+      "sha256": "dd4d71bf5bfc19a6763381b49e85d2d83f94a67d86f5e073f7f6c7f84a78a521"
+    },
+    {
+      "path": "fixtures/studio-constructor-reference.json",
+      "bytes": 1249,
+      "sha256": "a59d5aef16c32744565e1b0fb158e33abadcb55e8f63a6c83dc22d3284df7ac6"
+    },
+    {
+      "path": "frontend/README.md",
+      "bytes": 561,
+      "sha256": "3711c9c35cfa3bd63846c92c237aeb7e7f823a087bcbc7b936a16b7c63d6fd6f"
+    },
+    {
+      "path": "frontend/index.html",
+      "bytes": 250,
+      "sha256": "0beb09d67290644d611939a324caebe6cd1b96cd7342f8d5f852e73812c32de3"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 447,
+      "sha256": "fe9ffd1fdfd0e20c22f707a6a2ed00e4f86546f8977e493f8bbb2cecdecae0b4"
+    },
+    {
+      "path": "frontend/pnpm-lock.yaml",
+      "bytes": 95858,
+      "sha256": "1a187b4ddf8c5f62a6902aa88f7d0acd1aa794d22cbc7cdc38a71893363f1f86"
+    },
+    {
+      "path": "frontend/pnpm-workspace.yaml",
+      "bytes": 83,
+      "sha256": "91df5e5c25c4f0962d09c31c4fe43fd47e35f2dffd79cd80c554f0e805725c49"
+    },
+    {
+      "path": "frontend/src/config.ts",
+      "bytes": 125,
+      "sha256": "bf66bd0f90f8da402ac08a768370208be341c8b135937cf44c89f1d34948f2d3"
+    },
+    {
+      "path": "frontend/src/core.ts",
+      "bytes": 7293,
+      "sha256": "64927e4a3d9dee5206d14b7ff84fc7abfb94ec648d2d2bc227ada059e677dad7"
+    },
+    {
+      "path": "frontend/src/demo.ts",
+      "bytes": 640,
+      "sha256": "81bdbfcdd90b5f27aeb6c589ca0206b2743528aead5c05889d5906bebbe93bf7"
+    },
+    {
+      "path": "frontend/src/domain.ts",
+      "bytes": 2740,
+      "sha256": "102063013d72fae35b854bb8219f2542cede31a345f19efbf5944374c183ed61"
+    },
+    {
+      "path": "frontend/src/main.ts",
+      "bytes": 6119,
+      "sha256": "ae6af6bb1e49c5120ccf4334c48be1d677e34d37100fe527a6df3ba96baa4056"
+    },
+    {
+      "path": "frontend/src/shell.ts",
+      "bytes": 5805,
+      "sha256": "f0931b75e501d59d9b08ca573e95944bf3dc998342d2248e6b030a5111f4b3ab"
+    },
+    {
+      "path": "frontend/src/style.css",
+      "bytes": 2685,
+      "sha256": "5b646e3725c1c706d76dd5af564bea7aaca80cc2b16279c0a8562e7188c0ff0c"
+    },
+    {
+      "path": "frontend/src/wallet.ts",
+      "bytes": 4139,
+      "sha256": "e27f28c9f323e2c671471c5f7c638e1dc0908352fa1f2dc934acdae42e62e866"
+    },
+    {
+      "path": "frontend/tests/domain.test.ts",
+      "bytes": 2455,
+      "sha256": "a86fa6aa883b73cd7798b8d39715f6334ec3f5de4ec711d91eb25c20a31e05ea"
+    },
+    {
+      "path": "frontend/tests/nohash-recovery.test.ts",
+      "bytes": 2584,
+      "sha256": "9cff8ae9543c26d87d1398903bd3c9c88450ad6f9b718488f7a403fc56355b8d"
+    },
+    {
+      "path": "frontend/tests/receipt.test.ts",
+      "bytes": 6416,
+      "sha256": "b86231cd217f2a922f764bb4116c007fc970a5fd2d6f07ac04897b868f8f4cb6"
+    },
+    {
+      "path": "frontend/tests/studio-compat.test.ts",
+      "bytes": 2121,
+      "sha256": "47f5e0e17699f59dd345904460bc7b31a5ea0bdbd9ba7697421849cca75cb5ae"
+    },
+    {
+      "path": "frontend/tests/wallet-write.test.ts",
+      "bytes": 2951,
+      "sha256": "563cb591bb0cf11ca1278af3f440d6148e555cf211e3523476429f4cd6842847"
+    },
+    {
+      "path": "frontend/tests/wallet.test.ts",
+      "bytes": 1459,
+      "sha256": "0db896be3483e3d7fcc9339dea5c4c49bda3214006e9b9aec5718301e9575332"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 200,
+      "sha256": "9fa7edc10133a3e3ac564abb295f8a45c2e629fc4c24638d13cc8c989b9b8990"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "bytes": 79,
+      "sha256": "20038e216b1f9e9a8ab44f072c02a507dda5718c9fd651555d9bf4bc7e50d309"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 64,
+      "sha256": "f86b529005c87afce62aac694d1a4fd1f3411ea33b4039476d322590022e8500"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "f340b2192339f5648d61b70605c4a341e9eccae5369b3e51ae9599d1909051a1"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 1959,
+      "sha256": "4d23e6880100dcefe0ce657697b60eeeb1e03130004df6e6973005be4d33cfef"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "bytes": 8113,
+      "sha256": "44285797f9c1b6491d36bb26d08abab8faa6b3d0df74192da401c6c1232cfba1"
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 2573,
+      "sha256": "ed28238f843ad5b17c3e4101c1dc6fa6e741c5aa4ac1a06b85f827e9aa86fa75"
+    },
+    {
+      "path": "tools/verify_frontend.py",
+      "bytes": 1437,
+      "sha256": "cda28570574c36c1c9594146e7110d4a06e0f5ce9e205ad4fdc894d70f14c0e7"
+    }
+  ],
+  "payload_snapshot_sha256": "7c02e7def17b45fba2abeca7a94dbb316354d73ac887152d9119115b76c87894",
+  "existing_null_deployment_metadata": {
+    "network": "Studio",
+    "chain_id": 61999,
+    "constructor_args": [],
+    "address": null,
+    "transaction_hash": null,
+    "published_fixture_url": null,
+    "hosting_url": null,
+    "live_business_flow_verified": false
+  },
+  "new_frontend_publication": null,
+  "new_frontend_hosting": null,
+  "new_frontend_site_deployment": null,
+  "business_live_verified_by_this_patch": false,
+  "browser_tested": false,
+  "independent_review": {
+    "reviewer": "/root/genlayer_projects05",
+    "recorded_by": "/root/genlayer_contract_pair02",
+    "author": "/root/genlayer_contract_pair02",
+    "status": "independent_read_only_minimal_patch_review_passed",
+    "scope": "Only core/shell missing-hash guard and numeric/named SDK consistency revision; business/domain/contract/fixtures unchanged",
+    "new_test_or_build_runs_by_reviewer": false,
+    "browser_or_chain_operations": false,
+    "packages": [
+      {
+        "id": "monotone-desk",
+        "frontend_tree": "ab887e6e4130ac29f2b8b61c35e7611516b31e28f4ef6b25c9f6e9a9f0989c36",
+        "contract_sha256": "7f125508b8f743be9e9c4606fd40353429216d860065438e27ffddb1c0bf5434",
+        "recorded_frontend_tests": 55,
+        "recorded_tests_tsc_vite_exit0": true,
+        "unchanged_9_business_files_independently_compared_to_preserved_old_archive": true,
+        "zip_sha256": "e3149ecbc5078c46b004d0541fb235da88022b9ccb514cba5f635a94de90455e",
+        "entries": 74,
+        "crc_and_all_manifest_disk_archive_bytes_len_sha256_verified": true
+      },
+      {
+        "id": "cargo-nest",
+        "frontend_tree": "f96301050abb3a5829f749cd187999bbda26713d92139493b20fb22948959a23",
+        "contract_sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6",
+        "recorded_frontend_tests": 55,
+        "recorded_tests_tsc_vite_exit0": true,
+        "unchanged_9_business_files_independently_compared_to_preserved_old_archive": true,
+        "zip_sha256": "d58c7a75ebf336f440a50a9d445a33226d4286542db77db9334135ed89ce06d5",
+        "entries": 74,
+        "crc_and_all_manifest_disk_archive_bytes_len_sha256_verified": true
+      }
+    ],
+    "important_findings": [],
+    "reviewed_behaviors": [
+      "Core exact same bytes as reviewed profile10",
+      "Persist UNKNOWN_NO_HASH originalcontext before SDK submit; network/reload blocks another submission; only explicit4001 clears hashless attempts",
+      "Attach original hash for strict proof observation, no replay",
+      "Numeric-only failure, named-success/numeric-error and unknown codes reject without fabricated SDK fields",
+      "Actual main nohash-after-reload and actual SDK helper/formatter evidence preserved",
+      "Dict ABI and business main/domain/demo/wallet/fixtures unchanged",
+      "Old59entry archives preserved, new74entry source-only CRC/hash/allowlist verified"
+    ],
+    "minors": [
+      "Browser-local guard cannot survive cleared/unavailable storage or unrelated sessions; documented.",
+      "SDK bundle size notice; documented."
+    ],
+    "declined_to_judge": [
+      "Unchanged original Python/domain algorithms beyond archived byte identity",
+      "Browser visual or live wallet/onchain business completion; new publication/live remain false/null"
+    ],
+    "archive_identity_note": "Reviewer checked the 74-entry preceding archive. Final docs-only reseal adds this review/status; frozen frontend and business source bytes are unchanged."
+  },
+  "exclusions": [
+    ".git",
+    ".pytest_cache",
+    ".sdk",
+    ".venv",
+    ".vite",
+    ".vite-temp",
+    "__pycache__",
+    "artifacts",
+    "dist",
+    "node_modules",
+    "venv"
+  ],
+  "safety": "Explicit allowlist, secret-pattern scan, every entry SHA256 and ZIP CRC verified; no environment/dependencies/build artifacts"
+}

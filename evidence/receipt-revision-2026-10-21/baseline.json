@@ -1,0 +1,12 @@
+{
+  "contract_sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6",
+  "files": {
+    "frontend/src/core.ts": "58ca1e3105b68a2c4e6e68218ae4c7ab7e2dba9f1c1132407d6bd4e3f094df94",
+    "frontend/src/shell.ts": "355a4830b9d266503f47960f0f85d465a678af3cedc5d7dd0cc1ee00b25be05c",
+    "README.md": "021e6da61c5b78cdef5290c52833983af986715545311b6849c4a435deb4cf99",
+    "evidence/frontend-verification.json": "ef46ba9218e10f1e6183646f3b5fef564e0f152a7da4a0e9aec42456f2b02737",
+    "PUBLISH_MANIFEST.json": "4ebbf622d8ce1b65a3939603b95774731cee4845ed67133e06fc802cfb2a8a17",
+    "PACKAGE_CONTENTS.json": "108639da270d239373c808b3a348061995fd56485630d8c870706354dfe3896f"
+  },
+  "scope": "Original reviewed candidate retained as history; only local frontend nohash-before-broadcast and execution-field consistency correction"
+}

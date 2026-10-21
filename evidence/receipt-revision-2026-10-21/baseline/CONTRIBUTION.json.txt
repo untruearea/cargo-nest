@@ -1,0 +1,28 @@
+{
+  "title": "CargoNest",
+  "profile": "03",
+  "kind": "Project",
+  "status": "local_complete_candidate_awaiting_live_verification",
+  "contract": "contract.py",
+  "contract_sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6",
+  "constructor_args": [],
+  "counted_as_independent_ic": false,
+  "python_tests": 37,
+  "actual_sdk_contract_tests": 36,
+  "frontend_tests": 49,
+  "network": {
+    "name": "Studio",
+    "chain_id": 61999
+  },
+  "public_url": null,
+  "source_fixture_public_url": null,
+  "deployment_address": null,
+  "deployment_hash": null,
+  "hosting_url": null,
+  "live_business_flow_verified": false,
+  "description": "Exact two-capacity incompatible-parcel minimum-container plan with visual load workflow",
+  "shared_infrastructure_only": [
+    "SDK connection and receipt adapter",
+    "SDK verification scaffold"
+  ]
+}

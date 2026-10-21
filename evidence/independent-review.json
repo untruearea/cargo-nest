@@ -1,0 +1,44 @@
+{
+  "reviewer": "/root/genlayer_contract_pair02",
+  "recorded_by": "/root/genlayer_projects_pair02",
+  "method": "Independent read-only source, tests, actual captured logs and exact fixture bytes; no test rerun, live or browser claims",
+  "contract_sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6",
+  "frontend_input_tree_sha256": "b468f6aa5226e0b150441c9819dbebbab18ae1710e0230f02fd3573b4bdd09bf",
+  "code_review_result": "closed_after_four_reproduced_fixes",
+  "archive_review": "pending_final_zip_read_only_check",
+  "scope": [
+    "Dedicated algorithm and state/API/consensus boundaries",
+    "Mandatory raw transaction binding and unambiguous successful leader",
+    "Visible record-ID clearing and all write guards",
+    "Actual non-mocked SDK helper/formatter absent fields and strict raw fallback",
+    "Exact LF fixture bytes match metadata and embedded frontend demo"
+  ],
+  "resolved_findings": [
+    {
+      "id": "raw-proof-required",
+      "red": "frontend-raw-binding-red.log",
+      "result": "Strict full raw proof and original persisted sender/target/hash/value0; no automatic retry"
+    },
+    {
+      "id": "visible-record-context",
+      "red": "frontend-visible-id-red.log",
+      "result": "Editing visible ID clears record; handlers bind visible/loaded ID"
+    },
+    {
+      "id": "actual-studio-formatter",
+      "red": "frontend-studio-compat-red.log",
+      "result": "Present SDK contradictions reject; absent fields/observation errors require independent strict raw proof; no manufactured fields"
+    },
+    {
+      "id": "fixture-line-endings",
+      "red": "fixture-exact-bytes-red.log",
+      "result": "Raw LF file bytes agree with metadata and demo, tests read exact bytes"
+    }
+  ],
+  "important_remaining_code_findings": [],
+  "limitations": [
+    "Scoped peer review is not an external audit",
+    "Local mock transport tests are not live business-flow evidence",
+    "Final archive consistency is a separate check"
+  ]
+}

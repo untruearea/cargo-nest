@@ -1,0 +1,15 @@
+$ vitest run
+
+ RUN  v3.2.4 C:/Users/Administrator/Documents/ChatGPT/web3/contributions/genlayer-2026-10-21/profile03/projects/cargo-nest/frontend
+
+ ✓ tests/domain.test.ts (12 tests) 16ms
+ ✓ tests/studio-compat.test.ts (4 tests) 21ms
+ ✓ tests/wallet.test.ts (8 tests) 23ms
+ ✓ tests/wallet-write.test.ts (3 tests) 26ms
+ ✓ tests/receipt.test.ts (22 tests) 67ms
+
+ Test Files  5 passed (5)
+      Tests  49 passed (49)
+   Start at  06:27:18
+   Duration  3.20s (transform 626ms, setup 0ms, collect 6.39s, tests 154ms, environment 3ms, prepare 3.12s)
+

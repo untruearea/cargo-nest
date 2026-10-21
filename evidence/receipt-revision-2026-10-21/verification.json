@@ -1,0 +1,63 @@
+{
+  "scope": "Minimal nohash-before-broadcast and SDK execution-field consistency frontend correction",
+  "contract_sha256": "d92ff68e72d99fd8df39fa7441a10cb1d2613b18eb1189de0d9411312db854c6",
+  "contract_unchanged": true,
+  "genlayer_js": "2.0.0-rc.2",
+  "viem": "2.57.7",
+  "write_network_chain_id": 61999,
+  "view_abi": "SDK decoded dictionary",
+  "checks": {
+    "tests": {
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "test"
+      ]
+    },
+    "build": {
+      "exit_code": 0,
+      "passed": true,
+      "command": [
+        "build"
+      ]
+    }
+  },
+  "browser_tested": false,
+  "new_frontend_publication": null,
+  "new_frontend_site_deployment": null,
+  "business_live_verified_by_this_patch": false,
+  "historical_candidate_preserved": true,
+  "frontend_tests_passed": 55,
+  "frontend_inputs": {
+    "index.html": "0beb09d67290644d611939a324caebe6cd1b96cd7342f8d5f852e73812c32de3",
+    "package.json": "fe9ffd1fdfd0e20c22f707a6a2ed00e4f86546f8977e493f8bbb2cecdecae0b4",
+    "pnpm-lock.yaml": "1a187b4ddf8c5f62a6902aa88f7d0acd1aa794d22cbc7cdc38a71893363f1f86",
+    "pnpm-workspace.yaml": "91df5e5c25c4f0962d09c31c4fe43fd47e35f2dffd79cd80c554f0e805725c49",
+    "README.md": "3711c9c35cfa3bd63846c92c237aeb7e7f823a087bcbc7b936a16b7c63d6fd6f",
+    "src/config.ts": "bf66bd0f90f8da402ac08a768370208be341c8b135937cf44c89f1d34948f2d3",
+    "src/core.ts": "64927e4a3d9dee5206d14b7ff84fc7abfb94ec648d2d2bc227ada059e677dad7",
+    "src/demo.ts": "81bdbfcdd90b5f27aeb6c589ca0206b2743528aead5c05889d5906bebbe93bf7",
+    "src/domain.ts": "102063013d72fae35b854bb8219f2542cede31a345f19efbf5944374c183ed61",
+    "src/main.ts": "ae6af6bb1e49c5120ccf4334c48be1d677e34d37100fe527a6df3ba96baa4056",
+    "src/shell.ts": "f0931b75e501d59d9b08ca573e95944bf3dc998342d2248e6b030a5111f4b3ab",
+    "src/style.css": "5b646e3725c1c706d76dd5af564bea7aaca80cc2b16279c0a8562e7188c0ff0c",
+    "src/wallet.ts": "e27f28c9f323e2c671471c5f7c638e1dc0908352fa1f2dc934acdae42e62e866",
+    "tests/domain.test.ts": "a86fa6aa883b73cd7798b8d39715f6334ec3f5de4ec711d91eb25c20a31e05ea",
+    "tests/nohash-recovery.test.ts": "9cff8ae9543c26d87d1398903bd3c9c88450ad6f9b718488f7a403fc56355b8d",
+    "tests/receipt.test.ts": "b86231cd217f2a922f764bb4116c007fc970a5fd2d6f07ac04897b868f8f4cb6",
+    "tests/studio-compat.test.ts": "47f5e0e17699f59dd345904460bc7b31a5ea0bdbd9ba7697421849cca75cb5ae",
+    "tests/wallet-write.test.ts": "563cb591bb0cf11ca1278af3f440d6148e555cf211e3523476429f4cd6842847",
+    "tests/wallet.test.ts": "0db896be3483e3d7fcc9339dea5c4c49bda3214006e9b9aec5718301e9575332",
+    "tsconfig.json": "9fa7edc10133a3e3ac564abb295f8a45c2e629fc4c24638d13cc8c989b9b8990",
+    "vite.config.ts": "20038e216b1f9e9a8ab44f072c02a507dda5718c9fd651555d9bf4bc7e50d309"
+  },
+  "frontend_input_tree_sha256": "f96301050abb3a5829f749cd187999bbda26713d92139493b20fb22948959a23",
+  "public_reference_sha256": "a59d5aef16c32744565e1b0fb158e33abadcb55e8f63a6c83dc22d3284df7ac6",
+  "build_artifacts": {
+    "assets/ccip-BluJAQg9.js": "57f57fd6be2153e74e59ee7275f7f93683cef99e2af221fd42302cceefe65bf6",
+    "assets/index-BTAOVt2N.css": "d938797465a7ef02eb92c113dc9cd713f97c65bcd42f90e4095f786ac6b80e41",
+    "assets/index-DrUa4stp.js": "7bc92d03490918a2eb5a6557adcb28b69b7afe69913fa836209f6a4c67481d74",
+    "index.html": "097d62bcc2d825982dbf13ab0a8a16dca8e162be27bb6ab4de7ac884bbadf2c3"
+  },
+  "log_redaction": "64-hex diagnostic tokens redacted; source/input digests retained in report"
+}

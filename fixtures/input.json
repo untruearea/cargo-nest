@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "capacity": {
+    "weight": 10,
+    "volume": 10
+  },
+  "max_bins": 3,
+  "parcels": [
+    {
+      "id": "a",
+      "weight": 6,
+      "volume": 3
+    },
+    {
+      "id": "b",
+      "weight": 4,
+      "volume": 7
+    },
+    {
+      "id": "c",
+      "weight": 5,
+      "volume": 4
+    },
+    {
+      "id": "d",
+      "weight": 5,
+      "volume": 6
+    }
+  ],
+  "incompatible": [
+    [
+      "a",
+      "c"
+    ]
+  ]
+}

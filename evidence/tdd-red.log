@@ -1,0 +1,942 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                                     [100%]
+================================== FAILURES ===================================
+____________ test_literal_minimum_partition_and_confirmed_manifest ____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B0C2EC00>
+
+    def test_literal_minimum_partition_and_confirmed_manifest(direct_vm,direct_deploy):
+>       c=deploy(direct_vm,direct_deploy);r=packed(direct_vm,c)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:33: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B0C2EC00>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B0D2D190>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________ test_lexicographic_restricted_growth_tie_and_permutation ___________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B0DCCE00>
+
+    def test_lexicographic_restricted_growth_tie_and_permutation(direct_vm,direct_deploy):
+>       c=deploy(direct_vm,direct_deploy);s=tiny();r=packed(direct_vm,c,json.dumps(s))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:42: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B0DCCE00>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B0D12C30>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________ test_volume_constraint_and_pair_exclusion_are_independent __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B0E66520>
+
+    def test_volume_constraint_and_pair_exclusion_are_independent(direct_vm,direct_deploy):
+>       c=deploy(direct_vm,direct_deploy);s=tiny(volume=6,capacity=10)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B0E66520>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B0D13170>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+___________ test_infeasible_is_not_confirmable_or_a_plan[max_bins] ____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B0EEF880>
+kind = 'max_bins'
+
+    @pytest.mark.parametrize('kind',['max_bins','oversize'])
+    def test_infeasible_is_not_confirmable_or_a_plan(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny(n=2,weight=6,capacity=10,max_bins=1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B0EEF880>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B0EFD790>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+___________ test_infeasible_is_not_confirmable_or_a_plan[oversize] ____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B0EEFB00>
+kind = 'oversize'
+
+    @pytest.mark.parametrize('kind',['max_bins','oversize'])
+    def test_infeasible_is_not_confirmable_or_a_plan(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny(n=2,weight=6,capacity=10,max_bins=1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B0EEFB00>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B0EFF170>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+________________ test_eight_parcels_positive_bound_and_one_bin ________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B0C2CEA0>
+
+    def test_eight_parcels_positive_bound_and_one_bin(direct_vm,direct_deploy):
+>       c=deploy(direct_vm,direct_deploy);r=packed(direct_vm,c,json.dumps(tiny(n=8,capacity=8,max_bins=1)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B0C2CEA0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B109FFB0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+______________ test_strict_manifest_bounds_and_pair_shapes[zero] ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B10AB880>
+kind = 'zero'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B10AB880>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B0D12A80>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+______________ test_strict_manifest_bounds_and_pair_shapes[bool] ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B115D260>
+kind = 'bool'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B115D260>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1023F80>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____________ test_strict_manifest_bounds_and_pair_shapes[float] ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B11DACA0>
+kind = 'float'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B11DACA0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B125C530>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+___________ test_strict_manifest_bounds_and_pair_shapes[too_large] ____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B12980E0>
+kind = 'too_large'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B12980E0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1295940>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____________ test_strict_manifest_bounds_and_pair_shapes[bad_id] _____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B13258A0>
+kind = 'bad_id'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B13258A0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1352A20>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________ test_strict_manifest_bounds_and_pair_shapes[duplicate_id] __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B13AB600>
+kind = 'duplicate_id'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B13AB600>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B125FCB0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________ test_strict_manifest_bounds_and_pair_shapes[unknown_pair] __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B145C860>
+kind = 'unknown_pair'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B145C860>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B14B8C80>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+___________ test_strict_manifest_bounds_and_pair_shapes[self_pair] ____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B14EA7A0>
+kind = 'self_pair'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B14EA7A0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B14BBA70>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_________ test_strict_manifest_bounds_and_pair_shapes[duplicate_pair] _________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1594180>
+kind = 'duplicate_pair'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1594180>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1582AE0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____________ test_strict_manifest_bounds_and_pair_shapes[extra] ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1625B20>
+kind = 'extra'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1625B20>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1295A90>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+______________ test_strict_manifest_bounds_and_pair_shapes[nine] ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B16B31A0>
+kind = 'nine'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B16B31A0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B16B7110>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________ test_strict_manifest_bounds_and_pair_shapes[version_bool] __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1758A40>
+kind = 'version_bool'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1758A40>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B17BEB40>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____________ test_strict_manifest_bounds_and_pair_shapes[empty] ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B17F2160>
+kind = 'empty'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B17F2160>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B184B2C0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_________ test_strict_manifest_bounds_and_pair_shapes[max_bins_bool] __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B186F9C0>
+kind = 'max_bins_bool'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B186F9C0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B18E3FB0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_________ test_strict_manifest_bounds_and_pair_shapes[capacity_bool] __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1931120>
+kind = 'capacity_bool'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1931120>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B192AF00>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_________ test_strict_manifest_bounds_and_pair_shapes[capacity_zero] __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B19AA980>
+kind = 'capacity_zero'
+
+    @pytest.mark.parametrize('kind',['zero','bool','float','too_large','bad_id','duplicate_id','unknown_pair','self_pair','duplicate_pair','extra','nine','version_bool','empty','max_bins_bool','capacity_bool','capacity_zero'])
+    def test_strict_manifest_bounds_and_pair_shapes(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);s=tiny()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B19AA980>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B19B6F30>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+____________________ test_json_and_byte_bounds[duplicate] _____________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1A880E0>
+kind = 'duplicate'
+
+    @pytest.mark.parametrize('kind',['duplicate','nan','malformed','oversized'])
+    def test_json_and_byte_bounds(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);body=BODY
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1A880E0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1A77AD0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_______________________ test_json_and_byte_bounds[nan] ________________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1AF9940>
+kind = 'nan'
+
+    @pytest.mark.parametrize('kind',['duplicate','nan','malformed','oversized'])
+    def test_json_and_byte_bounds(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);body=BODY
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1AF9940>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1B27EF0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+____________________ test_json_and_byte_bounds[malformed] _____________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1B6B060>
+kind = 'malformed'
+
+    @pytest.mark.parametrize('kind',['duplicate','nan','malformed','oversized'])
+    def test_json_and_byte_bounds(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);body=BODY
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1B6B060>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1432F00>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+____________________ test_json_and_byte_bounds[oversized] _____________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1C2C900>
+kind = 'oversized'
+
+    @pytest.mark.parametrize('kind',['duplicate','nan','malformed','oversized'])
+    def test_json_and_byte_bounds(direct_vm,direct_deploy,kind):
+>       c=deploy(direct_vm,direct_deploy);body=BODY
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1C2C900>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1C4EB40>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________________ test_bad_namespace_fails_before_fetch[.] ___________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1CAE020>
+repo = '.'
+
+    @pytest.mark.parametrize('repo',['.','..','%2e','repo?bad'])
+    def test_bad_namespace_fails_before_fetch(direct_vm,direct_deploy,repo):
+>       c=deploy(direct_vm,direct_deploy)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1CAE020>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1C331D0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+__________________ test_bad_namespace_fails_before_fetch[..] __________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1D33880>
+repo = '..'
+
+    @pytest.mark.parametrize('repo',['.','..','%2e','repo?bad'])
+    def test_bad_namespace_fails_before_fetch(direct_vm,direct_deploy,repo):
+>       c=deploy(direct_vm,direct_deploy)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1D33880>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1D93800>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_________________ test_bad_namespace_fails_before_fetch[%2e] __________________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B1DFC040>
+repo = '%2e'
+
+    @pytest.mark.parametrize('repo',['.','..','%2e','repo?bad'])
+    def test_bad_namespace_fails_before_fetch(direct_vm,direct_deploy,repo):
+>       c=deploy(direct_vm,direct_deploy)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B1DFC040>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B1DBE5D0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_______________ test_bad_namespace_fails_before_fetch[repo?bad] _______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B2039800>
+repo = 'repo?bad'
+
+    @pytest.mark.parametrize('repo',['.','..','%2e','repo?bad'])
+    def test_bad_namespace_fails_before_fetch(direct_vm,direct_deploy,repo):
+>       c=deploy(direct_vm,direct_deploy)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B2039800>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B2036060>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+____ test_validator_recomputes_global_optimum_and_all_evidence[assignment] ____
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B20CADE0>
+field = 'assignment'
+
+    @pytest.mark.parametrize('field',['assignment','weight','count','binding'])
+    def test_validator_recomputes_global_optimum_and_all_evidence(direct_vm,direct_deploy,field):
+>       c=deploy(direct_vm,direct_deploy);packed(direct_vm,c);d=c.get_load('load')['last_capture']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B20CADE0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B20FEE10>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+______ test_validator_recomputes_global_optimum_and_all_evidence[weight] ______
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B2160680>
+field = 'weight'
+
+    @pytest.mark.parametrize('field',['assignment','weight','count','binding'])
+    def test_validator_recomputes_global_optimum_and_all_evidence(direct_vm,direct_deploy,field):
+>       c=deploy(direct_vm,direct_deploy);packed(direct_vm,c);d=c.get_load('load')['last_capture']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B2160680>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B2187470>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+______ test_validator_recomputes_global_optimum_and_all_evidence[count] _______
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B21F1C60>
+field = 'count'
+
+    @pytest.mark.parametrize('field',['assignment','weight','count','binding'])
+    def test_validator_recomputes_global_optimum_and_all_evidence(direct_vm,direct_deploy,field):
+>       c=deploy(direct_vm,direct_deploy);packed(direct_vm,c);d=c.get_load('load')['last_capture']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B21F1C60>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B2270770>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____ test_validator_recomputes_global_optimum_and_all_evidence[binding] ______
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B228B4C0>
+field = 'binding'
+
+    @pytest.mark.parametrize('field',['assignment','weight','count','binding'])
+    def test_validator_recomputes_global_optimum_and_all_evidence(direct_vm,direct_deploy,field):
+>       c=deploy(direct_vm,direct_deploy);packed(direct_vm,c);d=c.get_load('load')['last_capture']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B228B4C0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B20FEFF0>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____________ test_fresh_source_drift_and_owner_cas_cert_terminal _____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B2334AE0>
+
+    def test_fresh_source_drift_and_owner_cas_cert_terminal(direct_vm,direct_deploy):
+        from gltest.direct import create_address
+>       c=deploy(direct_vm,direct_deploy);opened(direct_vm,c)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:120: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B2334AE0>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B2333500>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+_____________ test_confirm_refetch_failure_preserves_exact_state ______________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x000001F8B23B5E40>
+
+    def test_confirm_refetch_failure_preserves_exact_state(direct_vm,direct_deploy):
+>       c=deploy(direct_vm,direct_deploy);packed(direct_vm,c);d=c.get_load('load')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+build = <function direct_deploy.<locals>._deploy at 0x000001F8B23B5E40>
+
+    def deploy(vm,build):
+        vm.warp('2026-10-21T00:00:00Z');c=build(str(ROOT/'contract.py'),sdk_version='v0.2.12')
+>       assert hasattr(c,'open_load'),'CargoNest API NOT_IMPLEMENTED'
+E       AssertionError: CargoNest API NOT_IMPLEMENTED
+E       assert False
+E        +  where False = hasattr(<CalldataProxy for <_contract_contract.CargoNest object at 0x000001F8B241E990>>, 'open_load')
+
+tests\test_contract.py:15: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_contract.py::test_literal_minimum_partition_and_confirmed_manifest
+FAILED tests/test_contract.py::test_lexicographic_restricted_growth_tie_and_permutation
+FAILED tests/test_contract.py::test_volume_constraint_and_pair_exclusion_are_independent
+FAILED tests/test_contract.py::test_infeasible_is_not_confirmable_or_a_plan[max_bins]
+FAILED tests/test_contract.py::test_infeasible_is_not_confirmable_or_a_plan[oversize]
+FAILED tests/test_contract.py::test_eight_parcels_positive_bound_and_one_bin
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[zero]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[bool]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[float]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[too_large]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[bad_id]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[duplicate_id]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[unknown_pair]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[self_pair]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[duplicate_pair]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[extra]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[nine]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[version_bool]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[empty]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[max_bins_bool]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[capacity_bool]
+FAILED tests/test_contract.py::test_strict_manifest_bounds_and_pair_shapes[capacity_zero]
+FAILED tests/test_contract.py::test_json_and_byte_bounds[duplicate] - Asserti...
+FAILED tests/test_contract.py::test_json_and_byte_bounds[nan] - AssertionErro...
+FAILED tests/test_contract.py::test_json_and_byte_bounds[malformed] - Asserti...
+FAILED tests/test_contract.py::test_json_and_byte_bounds[oversized] - Asserti...
+FAILED tests/test_contract.py::test_bad_namespace_fails_before_fetch[.] - Ass...
+FAILED tests/test_contract.py::test_bad_namespace_fails_before_fetch[..] - As...
+FAILED tests/test_contract.py::test_bad_namespace_fails_before_fetch[%2e] - A...
+FAILED tests/test_contract.py::test_bad_namespace_fails_before_fetch[repo?bad]
+FAILED tests/test_contract.py::test_validator_recomputes_global_optimum_and_all_evidence[assignment]
+FAILED tests/test_contract.py::test_validator_recomputes_global_optimum_and_all_evidence[weight]
+FAILED tests/test_contract.py::test_validator_recomputes_global_optimum_and_all_evidence[count]
+FAILED tests/test_contract.py::test_validator_recomputes_global_optimum_and_all_evidence[binding]
+FAILED tests/test_contract.py::test_fresh_source_drift_and_owner_cas_cert_terminal
+FAILED tests/test_contract.py::test_confirm_refetch_failure_preserves_exact_state
+36 failed in 3.85s
+WARNING: File `gltest.config.yaml` not found in the current directory, using default config, create a `gltest.config.yaml` file to manage multiple networks
+INFO: Using the following configuration:
+INFO:   RPC URL: http://127.0.0.1:4000/api
+INFO:   Selected Network: localnet
+INFO:   Available networks: ['localnet', 'studionet', 'testnet_asimov', 'testnet_bradbury']
+INFO:   Selected chain type: localnet
+INFO:   Available chains: localnet, studionet, testnet_asimov, testnet_bradbury
+INFO:   Contracts directory: contracts
+INFO:   Artifacts directory: artifacts
+INFO:   Environment: .env
+INFO:   Default wait interval: 3000 ms
+INFO:   Default wait retries: 50
+INFO:   Leader only mode: False

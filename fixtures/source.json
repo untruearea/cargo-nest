@@ -1,0 +1,11 @@
+{
+  "fixture_kind": "explicitly synthetic unpublished mock-only input",
+  "file": "input.json",
+  "sha256": "6a88b716830a277a6acdb383ab42dbc510f0e5d71f208c753afe02f0a7412edd",
+  "bytes": 437,
+  "public_url": null,
+  "test_url": "https://raw.githubusercontent.com/synthetic-fixture/cargo-nest/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/input.json",
+  "deployment": null,
+  "hosting": null,
+  "live_source_verified": false
+}

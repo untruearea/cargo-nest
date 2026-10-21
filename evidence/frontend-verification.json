@@ -1,0 +1,48 @@
+{
+  "input_sha256": {
+    "frontend/index.html": "0beb09d67290644d611939a324caebe6cd1b96cd7342f8d5f852e73812c32de3",
+    "frontend/package.json": "fe9ffd1fdfd0e20c22f707a6a2ed00e4f86546f8977e493f8bbb2cecdecae0b4",
+    "frontend/pnpm-lock.yaml": "1a187b4ddf8c5f62a6902aa88f7d0acd1aa794d22cbc7cdc38a71893363f1f86",
+    "frontend/pnpm-workspace.yaml": "91df5e5c25c4f0962d09c31c4fe43fd47e35f2dffd79cd80c554f0e805725c49",
+    "frontend/src/config.ts": "bf66bd0f90f8da402ac08a768370208be341c8b135937cf44c89f1d34948f2d3",
+    "frontend/src/core.ts": "58ca1e3105b68a2c4e6e68218ae4c7ab7e2dba9f1c1132407d6bd4e3f094df94",
+    "frontend/src/demo.ts": "81bdbfcdd90b5f27aeb6c589ca0206b2743528aead5c05889d5906bebbe93bf7",
+    "frontend/src/domain.ts": "102063013d72fae35b854bb8219f2542cede31a345f19efbf5944374c183ed61",
+    "frontend/src/main.ts": "ae6af6bb1e49c5120ccf4334c48be1d677e34d37100fe527a6df3ba96baa4056",
+    "frontend/src/shell.ts": "355a4830b9d266503f47960f0f85d465a678af3cedc5d7dd0cc1ee00b25be05c",
+    "frontend/src/style.css": "5b646e3725c1c706d76dd5af564bea7aaca80cc2b16279c0a8562e7188c0ff0c",
+    "frontend/src/wallet.ts": "e27f28c9f323e2c671471c5f7c638e1dc0908352fa1f2dc934acdae42e62e866",
+    "frontend/tests/domain.test.ts": "a86fa6aa883b73cd7798b8d39715f6334ec3f5de4ec711d91eb25c20a31e05ea",
+    "frontend/tests/receipt.test.ts": "5cac52c150f5647524ae622a249c621639f043ecae7aeb7edaae2e8f2db9cef2",
+    "frontend/tests/studio-compat.test.ts": "47f5e0e17699f59dd345904460bc7b31a5ea0bdbd9ba7697421849cca75cb5ae",
+    "frontend/tests/wallet-write.test.ts": "563cb591bb0cf11ca1278af3f440d6148e555cf211e3523476429f4cd6842847",
+    "frontend/tests/wallet.test.ts": "0db896be3483e3d7fcc9339dea5c4c49bda3214006e9b9aec5718301e9575332",
+    "frontend/tsconfig.json": "9fa7edc10133a3e3ac564abb295f8a45c2e629fc4c24638d13cc8c989b9b8990",
+    "frontend/vite.config.ts": "20038e216b1f9e9a8ab44f072c02a507dda5718c9fd651555d9bf4bc7e50d309"
+  },
+  "input_tree_sha256": "b468f6aa5226e0b150441c9819dbebbab18ae1710e0230f02fd3573b4bdd09bf",
+  "commands": {
+    "tests": {
+      "exit_code": 0,
+      "passed": true,
+      "tests": 49
+    },
+    "build": {
+      "exit_code": 0,
+      "passed": true
+    }
+  },
+  "live_wallet_or_business_flow_verified": false,
+  "actual_helper_formatter_tested": true,
+  "transport_mocked": true,
+  "chunk_size_warning": "SDK production chunk exceeds 500kB; nonfatal warning retained in build log",
+  "receipt_fixture_scope": "Another public constructor transaction; not this project deployment or business-flow evidence",
+  "evidence_sha256": {
+    "frontend-tests.log": "c62caaf3e3e7cc3c5b056adc3dc745212cc4df144cf4a3233c6797421f7f340e",
+    "frontend-build.log": "0253d8552506a3a1181f4ceb22fbe3aef0bbed2a15867355ec189ea7b6050a58",
+    "frontend-studio-compat-red.log": "a14c133e782d5aefee8967a67e124251a87f7380de8e3419e48905dc9eee4ca5",
+    "fixture-exact-bytes-red.log": "75ff02fcc966ee0a2ccf781d72f6339ce0daa000049399844ebbe89877385035",
+    "frontend-raw-binding-red.log": "dc0b90f4a3b49af95a57b04034158cfbb3e6b1b6f293e766f88a44bad435c96b",
+    "frontend-visible-id-red.log": "38181f84960bfc0a58ae22fe935ff5d7686aa0337f77bf61ec76c5bd133ff876"
+  }
+}

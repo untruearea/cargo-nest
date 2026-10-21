@@ -1,0 +1,151 @@
+FFF...............................F.                                     [100%]
+================================== FAILURES ===================================
+____________ test_literal_minimum_partition_and_confirmed_manifest ____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x0000028F603B2840>
+
+    def test_literal_minimum_partition_and_confirmed_manifest(direct_vm,direct_deploy):
+        c=deploy(direct_vm,direct_deploy);r=packed(direct_vm,c)
+        assert r=={'decision':'FEASIBLE','bin_count':2,'assignment':[0,0,1,1],'bins':[{'index':0,'parcels':['a','b'],'weight':10,'volume':10},{'index':1,'parcels':['c','d'],'weight':10,'volume':10}]}
+        assert direct_vm.run_validator() is True
+        d=c.get_load('load');c.confirm_load('load',1,d['certificate_id'])
+>       assert c.get_load('load')['status']=='CONFIRMED' and c.get_load('load')['revision']==2
+E       AssertionError: assert ('confirm_loadED' == 'CONFIRMED'
+E         
+E         - CONFIRMED
+E         + confirm_loadED)
+
+tests\test_contract.py:37: AssertionError
+__________ test_lexicographic_restricted_growth_tie_and_permutation ___________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x0000028F6050A700>
+
+    def test_lexicographic_restricted_growth_tie_and_permutation(direct_vm,direct_deploy):
+        c=deploy(direct_vm,direct_deploy);s=tiny();r=packed(direct_vm,c,json.dumps(s))
+        assert r['bin_count']==2 and r['assignment']==[0,0,1]
+>       s['parcels'].reverse();opened(direct_vm,c,json.dumps(s),'reverse')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\test_contract.py:21: in opened
+    c.open_load(ident,META['test_url'],hashlib.sha256(body.encode()).hexdigest())
+..\..\..\tooling\.venv\Lib\site-packages\gltest\direct\loader.py:432: in _wrapped
+    return attr(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+contract.py:152: in open_load
+    packet=_capture(source_url,source_sha256,self._binding(d,'open'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+contract.py:123: in _capture
+    return gl.vm.run_nondet_unsafe(leader,validator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\tooling\.venv\Lib\site-packages\gltest\direct\loader.py:161: in _direct_run_nondet_unsafe
+    result = leader_fn()
+             ^^^^^^^^^^^
+contract.py:113: in leader
+    data=_fetch(url,digest)
+         ^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+url = 'https://raw.githubusercontent.com/synthetic-fixture/cargo-nest/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/input.json'
+digest = '23ae54b9d93aca9f54194e043c13dbd6ce0e74f56a6be71d4022c92ae4f96e15'
+
+    def _fetch(url: str,digest: str) -> dict:
+        r=gl.nondet.web.get(url,headers={'Accept':'application/json'})
+        if r.status!=200 or r.body is None or not 1<=len(r.body)<=16384 or hashlib.sha256(r.body).hexdigest()!=digest:
+>           raise gl.vm.UserError('[SOURCE] unavailable, oversized or byte digest mismatch')
+E           genlayer.gl.vm.UserError: UserError(message='[SOURCE] unavailable, oversized or byte digest mismatch')
+
+contract.py:52: UserError
+__________ test_volume_constraint_and_pair_exclusion_are_independent __________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x0000028F60606160>
+
+    def test_volume_constraint_and_pair_exclusion_are_independent(direct_vm,direct_deploy):
+        c=deploy(direct_vm,direct_deploy);s=tiny(volume=6,capacity=10)
+        assert packed(direct_vm,c,json.dumps(s))['bin_count']==3
+>       s=tiny(n=2,capacity=10);s['incompatible']=[['b','a']];opened(direct_vm,c,json.dumps(s),'pair')
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_contract.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\test_contract.py:21: in opened
+    c.open_load(ident,META['test_url'],hashlib.sha256(body.encode()).hexdigest())
+..\..\..\tooling\.venv\Lib\site-packages\gltest\direct\loader.py:432: in _wrapped
+    return attr(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+contract.py:152: in open_load
+    packet=_capture(source_url,source_sha256,self._binding(d,'open'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+contract.py:123: in _capture
+    return gl.vm.run_nondet_unsafe(leader,validator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\tooling\.venv\Lib\site-packages\gltest\direct\loader.py:161: in _direct_run_nondet_unsafe
+    result = leader_fn()
+             ^^^^^^^^^^^
+contract.py:113: in leader
+    data=_fetch(url,digest)
+         ^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+url = 'https://raw.githubusercontent.com/synthetic-fixture/cargo-nest/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/input.json'
+digest = '798b9c06b95cecda9335a356731356e2fafb8350b69c569664f2965e27a1d7a5'
+
+    def _fetch(url: str,digest: str) -> dict:
+        r=gl.nondet.web.get(url,headers={'Accept':'application/json'})
+        if r.status!=200 or r.body is None or not 1<=len(r.body)<=16384 or hashlib.sha256(r.body).hexdigest()!=digest:
+>           raise gl.vm.UserError('[SOURCE] unavailable, oversized or byte digest mismatch')
+E           genlayer.gl.vm.UserError: UserError(message='[SOURCE] unavailable, oversized or byte digest mismatch')
+
+contract.py:52: UserError
+_____________ test_fresh_source_drift_and_owner_cas_cert_terminal _____________
+
+direct_vm = VMContext(_sender=b'\xdc\x18\xaa=\xb8\xbc\x91\xa6\xe3\x90\xa3^}\x08\x11$o\xf3\xab\x01', _origin=None, _contract_addres...m_mocks_hit=set(), _live_web_handler=None, _live_llm_handler=None, _gl_call_hook=None, _traces=[], _trace_enabled=True)
+direct_deploy = <function direct_deploy.<locals>._deploy at 0x0000028F61D596C0>
+
+    def test_fresh_source_drift_and_owner_cas_cert_terminal(direct_vm,direct_deploy):
+        from gltest.direct import create_address
+        c=deploy(direct_vm,direct_deploy);opened(direct_vm,c)
+        with direct_vm.prank(create_address('packer')):c.pack_load('load',0)
+        d=c.get_load('load')
+        with direct_vm.prank(create_address('other')):
+            with direct_vm.expect_revert('creator only'):c.confirm_load('load',1,d['certificate_id'])
+            with direct_vm.expect_revert('creator only'):c.revoke_load('load',1,'not mine')
+        with direct_vm.expect_revert('revision'):c.confirm_load('load',0,d['certificate_id'])
+        with direct_vm.expect_revert('certificate'):c.confirm_load('load',1,'00'*32)
+        opened(direct_vm,c,ident='other');c.pack_load('other',0)
+        assert c.get_load('other')['certificate_id']!=d['certificate_id']
+        with direct_vm.expect_revert('certificate'):c.confirm_load('other',1,d['certificate_id'])
+        c.confirm_load('load',1,d['certificate_id'])
+        with direct_vm.expect_revert():c.confirm_load('load',2,d['certificate_id'])
+        direct_vm.clear_mocks();c.revoke_load('load',2,'Retired planning input.')
+>       assert c.get_load('load')['status']=='REVOKED' and len(c.get_load('load')['history'])==4
+E       AssertionError: assert ('revoke_loadD' == 'REVOKED'
+E         
+E         - REVOKED
+E         + revoke_loadD)
+
+tests\test_contract.py:134: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_contract.py::test_literal_minimum_partition_and_confirmed_manifest
+FAILED tests/test_contract.py::test_lexicographic_restricted_growth_tie_and_permutation
+FAILED tests/test_contract.py::test_volume_constraint_and_pair_exclusion_are_independent
+FAILED tests/test_contract.py::test_fresh_source_drift_and_owner_cas_cert_terminal
+4 failed, 32 passed in 3.86s
+WARNING: File `gltest.config.yaml` not found in the current directory, using default config, create a `gltest.config.yaml` file to manage multiple networks
+INFO: Clearing artifacts directory: artifacts
+INFO: Using the following configuration:
+INFO:   RPC URL: http://127.0.0.1:4000/api
+INFO:   Selected Network: localnet
+INFO:   Available networks: ['localnet', 'studionet', 'testnet_asimov', 'testnet_bradbury']
+INFO:   Selected chain type: localnet
+INFO:   Available chains: localnet, studionet, testnet_asimov, testnet_bradbury
+INFO:   Contracts directory: contracts
+INFO:   Artifacts directory: artifacts
+INFO:   Environment: .env
+INFO:   Default wait interval: 3000 ms
+INFO:   Default wait retries: 50
+INFO:   Leader only mode: False
